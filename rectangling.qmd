@@ -139,7 +139,7 @@ knitr::include_graphics("screenshots/View-3.png", dpi = 220)
 
 Lists can also live inside a tibble, where we call them list-columns.
 List-columns are useful because they allow you to shoehorn in objects that wouldn't usually belong in a tibble.
-In particular, list-columns are are used a lot in the [tidymodels](https://www.tidymodels.org) ecosystem, because they allow you to store things like models or resamples in a data frame.
+In particular, list-columns are used a lot in the [tidymodels](https://www.tidymodels.org) ecosystem, because they allow you to store things like models or resamples in a data frame.
 
 Here's a simple example of a list-column:
 
